@@ -23,15 +23,97 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-color: #1D1F29;
+  display: flex;
+  justify-content: center;
 }
 
-.card-big {
+.dashboard {
+  width: 284px;
+  height: 50px;
   display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+}
+
+.dark {
+  width:326px;
+  height: 24px ;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 41px;
+  margin-bottom: 40px;
+}
+
+.bar {
+  position: relative;
+  width: 48px;
+  height: 24px;
+  border-radius: 12px ;
+  background-image: linear-gradient(#40DB82,#388FE7) ;
+}
+
+.circle{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color:#252B42;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 4;
+}
+
+h2 {
+  color:#8C98C6 ;
+  font-size:14px;
+  margin: 0;
+}
+.card-big {
   width:326px;
   height:216px;
   border-radius: 5px;
   background-color:#252B42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.social {
+  width:86px ;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px ;
+}
+
+.letters {
+  width: 127px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.numbers {
+  font-size: 56px;
+  color: white;
+  margin: 0;
+}
+
+.followers {
+  font-size: 12px;
+  letter-spacing: 5px;
+  color:#8C98C6;
 }
 
 .blue{
@@ -48,5 +130,6 @@ body {
 
 .red{
   border-top: 5px solid #C4032B
+}
 
 
