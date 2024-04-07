@@ -114,6 +114,7 @@ h2 {
   font-size: 12px;
   letter-spacing: 5px;
   color:#8C98C6;
+  margin: 0;
 }
 
 .today {
@@ -139,7 +140,7 @@ h2 {
 }
 
 .pink{
-  border-top: 5px solid #DF4896 ;
+  border-top: 5px solid linear-gradient(#DF4896, #EE877E, #FDC366) ;
 }
 
 .red{
