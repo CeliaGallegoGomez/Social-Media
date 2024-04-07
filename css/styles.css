@@ -22,4 +22,31 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #1D1F29;
 }
+
+.card-big {
+  display: flex;
+  align-items: center;
+  width:326px;
+  height:216px;
+  border-radius: 5px;
+  background-color:#252B42;
+}
+
+.blue{
+  border-top: 5px solid #178FF5 ;
+}
+
+.light-blue{
+  border-top: 5px solid #1DA1F2 ;
+}
+
+.pink{
+  border-top: 5px solid #DF4896 ;
+}
+
+.red{
+  border-top: 5px solid #C4032B
+
+
