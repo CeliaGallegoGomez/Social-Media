@@ -116,6 +116,20 @@ h2 {
   color:#8C98C6;
 }
 
+.today {
+  width: 66px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.todays {
+  font-size: 12px;
+  color: white;
+}
+
 .blue{
   border-top: 5px solid #178FF5 ;
 }
