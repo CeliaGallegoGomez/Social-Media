@@ -136,15 +136,40 @@ h2 {
 }
 
 .light-blue{
-  border-top: 5px solid #1DA1F2 ;
+  border-top: 5px solid #1DA1F2;
+  margin-top: 24px;
 }
 
 .pink{
-  border-top: 5px solid linear-gradient(#DF4896, #EE877E, #FDC366) ;
+  border-top: 5px solid linear-gradient(#DF4896, #EE877E, #FDC366);
+  margin-top: 24px;
+}
+.red{
+  border-top: 5px solid #C4032B;
+  margin-top: 24px;
 }
 
-.red{
-  border-top: 5px solid #C4032B
+.card-little {
+  width: 326px;
+  height: 125px;
+  background-color: #252B42;
+  border-radius: 5px;
+  display: flex;
+  padding-left: 24px;
+  padding-top: 27px;
+}
+
+.title {
+  font-size: 14px;
+  color: #8C98C6;
+}
+
+.container {
+  width: 271px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
